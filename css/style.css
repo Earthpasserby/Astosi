@@ -150,15 +150,15 @@
   text-align: center;
   margin-top: 150px;
 }
-.section-hero h4 {
+.section-hero h1 {
   font-family: Aileron;
   font-size: 48px;
   font-weight: 600;
   line-height: 60px;
   letter-spacing: -0.02em;
-  text-align: center;
   color: #18181b;
-  text-wrap: wer;
+  width: 698px;
+  height: 120px;
 }
 .section-hero h3 {
   font-family: Aileron;
@@ -185,8 +185,43 @@
   text-align: center;
   color: #71717a;
 }
-.tt{
-     text-wrap: wrap;
+.section-Col {
+  position: relative;
+}
+
+.section-Text {
+  position: absolute; /* Position the overlay absolutely */
+  bottom: 0; /* Align the overlay to the bottom of the image */
+  left: 0; /* Align the overlay to the left edge */
+  width: 100%; /* Make the overlay span the full width of the image */
+  background-color: rgba(
+    255,
+    255,
+    255
+  ); /* White background with transparency */
+  z-index: 1; /* Ensure the text is on top of txt is on top of the image */
+  padding: 32px 28px 32px 28px;
+  gap: 16px;
+  border-radius: 24px;
+  border: 0px 1px 1px 1px;
+}
+.section-Text h5 {
+  font-family: Aileron;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #18181b;
+}
+.section-Text p {
+  font-family: Aileron;
+  font-size: 16px;
+  font-weight: 400;
+  /* line-height: 24px; */
+  text-align: left;
+  color: #71717a;
+  width: 456px;
+  height: 48px;
 }
 @media (max-width: 768px) {
   .nav-btn {
@@ -237,6 +272,17 @@
     font-family: Aileron;
     font-size: 30px;
     line-height: 38px;
+  }
+  .section-hero h1 {
+    width: 358px;
+    font-family: Aileron;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+  }
+  .section-Text p {
+    width: 358px;
   }
 }
 
