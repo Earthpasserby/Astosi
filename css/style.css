@@ -14,3 +14,115 @@
   text-align: left;
   color: #ffffff;
 }
+.nav-btn {
+  padding: 8px 16px 8px 16px;
+  gap: 24px;
+  border-radius: 8px;
+  border: 1px solid #a1a1aa;
+  background-color: transparent;
+  font-family: Aileron;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.hero {
+  background-image: url("https://s3-alpha-sig.figma.com/img/53ff/5b24/c790aa33752934325536a2e06666643b?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NZJUpDKog5vCfAiKV8tIh2LpxjKhv1XSfCMAeUn4JgbmWyK-QtQs-U7D4ZPbArap1LZ0yrH1klQS6fDq6pSwMMAON08WdmV00QGktdIZwDIszR6JbiLe6lIhErGa8C8dDfj4S4yTruoSHeQJ9xAF-P~wiz1mC4zwoOUj0iQuVrHSb-iB9iG7zJQeqArC4P9cFsUl3hVY~ufgva4CdGhDbAzP1xQRgVRDOXHAKt00iEurMI5rq33kwJ-uC-ey6bAKZPjNYpAiJVBEeROLManxSqRjC1t8g-yjZgFxisIixb2qp5oUxPdb2h~jCk7g0Y-5E1TZjZFCPO1cdvEn1W6n4w__");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Prevents background image from repeating */
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.header-cont {
+  height: 100%;
+}
+.header-text {
+  padding: 20px;
+  color: #ffffff;
+  position: relative;
+  top: 120px; /* Move down by 20px */
+}
+.header-text h3 {
+  font-family: Aileron;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-wrap: balance;
+}
+
+.header-text p {
+  font-family: Aileron;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #d4d4d8;
+  max-width: 600px;
+  /* margin: 0 auto; */
+}
+.header-btn {
+  /* width: Hug (187px) px; */
+  /* height: Hug (48px) px; */
+  padding: 12px 16px 12px 16px;
+  gap: 24px;
+  border-radius: 8px;
+  background-color: #dc2626;
+  border: none;
+  font-family: Aileron;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .header-text {
+    position: relative; /* Enable positioning */
+    top: 140px; /* Move down by 20px */
+    color: #ffffff;
+  }
+  .header-text h3 {
+    font-size: 2rem; /* Smaller text for tablets */
+    font-family: Aileron;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .header-text p {
+    font-size: 1rem; /* Adjust paragraph font size */
+    font-family: Aileron;
+    font-weight: 600;
+    height: 72px;
+  }
+
+  .header-btn {
+    font-size: 0.9rem;
+    padding: 8px 15px; /* Smaller button for tablets */
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-text h3 {
+    font-size: 1.5rem; /* Smaller text for mobile */
+  }
+
+  .header-text p {
+    font-size: 0.9rem; /* Smaller text for mobile */
+  }
+
+  .header-btn {
+    font-size: 0.8rem;
+    padding: 6px 12px; /* Smaller button for mobile */
+  }
+}
