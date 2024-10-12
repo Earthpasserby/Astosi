@@ -86,7 +86,12 @@
   margin-top: 24px;
 }
 /*Row- col section*/
-
+.Section {
+  margin-top: 140px;
+}
+.section{
+     padding-top: 100px;
+}
 .section span {
   padding: 6px 12px 6px 12px;
   gap: 10px;
@@ -160,6 +165,25 @@
     padding: 8px 15px; /* Smaller button for tablets */
     width: 100%;
   }
+/*Row- col section*/
+.Section{
+     margin-top: 5px;
+}
+.section h5{
+     padding-top: 10px;
+}
+.section{
+     margin-bottom: 100px;
+}
+.section-btn {
+  width: 100%;
+  margin-top: 20px;
+}
+.section h5 {
+  font-family: Aileron;
+  font-size: 30px;
+  line-height: 38px;
+}
 }
 
 @media (max-width: 480px) {
