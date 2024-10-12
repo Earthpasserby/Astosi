@@ -150,6 +150,25 @@
   text-align: center;
   margin-top: 150px;
 }
+.section-hero h4 {
+  font-family: Aileron;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #18181b;
+  text-wrap: wer;
+}
+.section-hero h3 {
+  font-family: Aileron;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #18181b;
+}
 .section-column h5 {
   font-family: Aileron;
   font-size: 24px;
@@ -165,6 +184,9 @@
   line-height: 24px;
   text-align: center;
   color: #71717a;
+}
+.tt{
+     text-wrap: wrap;
 }
 @media (max-width: 768px) {
   .nav-btn {
