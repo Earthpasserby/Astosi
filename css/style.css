@@ -200,9 +200,8 @@
     255
   ); /* White background with transparency */
   z-index: 1; /* Ensure the text is on top of txt is on top of the image */
-  padding: 32px 28px 32px 28px;
-  gap: 16px;
-  border-radius: 24px;
+  padding: 15px 28px 32px 28px;
+  border-radius: 4px;
   border: 0px 1px 1px 1px;
 }
 .section-Text h5 {
@@ -220,8 +219,8 @@
   /* line-height: 24px; */
   text-align: left;
   color: #71717a;
-  width: 456px;
-  height: 48px;
+
+  
 }
 @media (max-width: 768px) {
   .nav-btn {
@@ -282,7 +281,7 @@
     text-align: center;
   }
   .section-Text p {
-    width: 358px;
+    /* width: 358px; */
   }
 }
 

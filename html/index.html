@@ -20,6 +20,7 @@
       src="https://kit.fontawesome.com/a6c073ed30.js"
       crossorigin="anonymous"
     ></script>
+    <script src="/js/script.js"></script>
   </head>
   <body>
     <div class="container-fluid g-0">
@@ -37,8 +38,12 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">
+              <i class="fas fa-bars"></i>
+              <!-- Hamburger Icon -->
+            </span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav gap-4 mx-auto mb-2 mb-lg-0 middle-nav">
               <li class="nav-item">
@@ -151,54 +156,82 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid bg-red-100 p-4">
       <div class="container">
-        <div class="section-hero">
+        <div class="section-hero text-center">
           <span>What we do</span>
           <h1 class="mt-2 mx-auto">
-            Solutions we provide across different aspect of transportation
+            Solutions we provide across different aspects of transportation
           </h1>
         </div>
+
+        <!-- First Row -->
         <div class="row mt-4 section-column">
-          <div class="col-12 col-md-6 section-Col">
-            <img src="/img/onair.png" alt="icon" class="img-fluid" />
-            <div class="section-Text">
-              <h5>Film Production</h5>
-              <p>
+          <div
+            class="col-12 col-md-6 section-Col mb-4 d-flex flex-column align-items-center text-center"
+          >
+            <img
+              src="/img/onair.png"
+              alt="Film Production"
+              class="img-fluid mb-3"
+            />
+            <div class="section-Text  px-3 px-md-5">
+              <h5 class="fs-3 fs-md-2">Film Production</h5>
+              <p class="fs-6 fs-md-5">
                 Our film production services encompass script development,
                 pre-production, filming, post-production, and distribution
               </p>
             </div>
           </div>
-          <div class="col-12 col-md-6">
-            <img src="/img/music.png" alt="icon" class="img-fluid" />
-            <div class="">
-              <h5>Diverse Expertise</h5>
+          <div
+            class="col-12 col-md-6 section-Col mb-4 d-flex flex-column align-items-center text-center"
+          >
+            <img
+              src="/img/music.png"
+              alt="Mobile Gaming Application"
+              class="img-fluid mb-3"
+            />
+            <div class="section-Text">
+              <h5>Mobile Gaming Application</h5>
               <p>
-                Our team brings a wealth of experience across industries,
-                ensuring well-rounded solutions
+                We develop immersive and interactive mobile games that captivate
+                audiences and drive user engagement
               </p>
             </div>
           </div>
         </div>
+
+        <!-- Second Row -->
         <div class="row mt-4 section-column">
-          <div class="col-12 col-md-6">
-            <img src="/img/pitch.png" alt="icon" class="img-fluid" />
-            <div class="">
-              <h5>Creative Solutions</h5>
+          <div
+            class="col-12 col-md-6 section-Col mb-4 d-flex flex-column align-items-center text-center"
+          >
+            <img
+              src="/img/pitch.png"
+              alt="AI Assistant Tool"
+              class="img-fluid mb-3"
+            />
+            <div class="section-Text">
+              <h5>AI Assistant Tool</h5>
               <p>
-                We think outside the box to provide unique and effective
-                solutions
+                Our AI assistant tools streamline processes, enhance efficiency,
+                and provide valuable insights to businesses and individuals
               </p>
             </div>
           </div>
-          <div class="col-12 col-md-6">
-            <img src="/img/outdoor.png" alt="icon" class="img-fluid" />
-            <div class="">
-              <h5>Diverse Expertise</h5>
+          <div
+            class="col-12 col-md-6 section-Col mb-4 d-flex flex-column align-items-center text-center"
+          >
+            <img
+              src="/img/outdoor.png"
+              alt="Agriculture"
+              class="img-fluid mb-3"
+            />
+            <div class="section-Text">
+              <h5>Agriculture</h5>
               <p>
-                Our team brings a wealth of experience across industries,
-                ensuring well-rounded solutions
+                We're improving agriculture with sustainable technologies that
+                boost yields and protect the environment
               </p>
             </div>
           </div>
