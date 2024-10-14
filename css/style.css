@@ -366,7 +366,6 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #18181b;
-
 }
 
 .section-About span {
@@ -381,13 +380,44 @@
   text-align: center;
   color: #27272a;
 }
-.section-About p{
-font-family: Aileron;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: center;
-color: #11111180;
+.section-About p {
+  font-family: Aileron;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #11111180;
+}
+.sectionCol h5,
+.sectionCol-V h5 {
+  font-family: Aileron;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  color: #111111;
+}
+.sectionCol p,
+.sectionCol-V p {
+  font-family: Aileron;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #11111180;
+  margin-bottom: 20px;
+}
+.sectionCol-V li {
+  color: #11111180;
+  font-family: Aileron;
+  font-size: 16px;
+}
+.sectionCol {
+  padding-top: 100px;
+}
+.Value {
+  padding-top: 50px;
+}
+.Vision {
+  margin-top: 100px;
 }
 
 @media (max-width: 768px) {
@@ -481,15 +511,17 @@ color: #11111180;
     background-color: #dc2626;
     width: 100%;
   }
-
+  .sectionCol {
+    padding-top: 30px;
+  }
   /*About page section*/
 
-
-.section-About h1 {
-  font-size:42px;
- 
-
-}
+  .section-About h1 {
+    font-size: 42px;
+  }
+  .Vision {
+    margin-top: 100px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -504,5 +536,8 @@ color: #11111180;
   .header-btn {
     font-size: 0.8rem;
     padding: 6px 12px; /* Smaller button for mobile */
+  }
+  .section {
+    padding-top: 0;
   }
 }
