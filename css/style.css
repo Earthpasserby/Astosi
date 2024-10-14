@@ -190,9 +190,9 @@
 }
 
 .section-Text {
-  position: absolute; /* Position the overlay absolutely */
+  position: relative; /* Position the overlay absolutely */
   bottom: 0; /* Align the overlay to the bottom of the image */
-  left: 0; /* Align the overlay to the left edge */
+  left: 10px; /* Align the overlay to the left edge */
   width: 100%; /* Make the overlay span the full width of the image */
   background-color: rgba(
     255,
@@ -201,7 +201,7 @@
   ); /* White background with transparency */
   z-index: 1; /* Ensure the text is on top of txt is on top of the image */
   padding: 15px 28px 32px 28px;
-  border-radius: 4px;
+  border-radius: 24px;
   border: 0px 1px 1px 1px;
 }
 .section-Text h5 {
@@ -280,9 +280,7 @@
     line-height: 38px;
     text-align: center;
   }
-  .section-Text p {
-    /* width: 358px; */
-  }
+
 }
 
 @media (max-width: 480px) {
