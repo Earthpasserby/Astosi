@@ -3,12 +3,12 @@
   padding: 0;
 }
 
-/*Navbar and hero section*/
+/*Navbar and index page section*/
 .navbar {
   background-color: #18181b;
 }
-.navbar-About{
-     background-image: url(../img/Row.png);
+.navbar-About {
+  background-image: url(../img/Row.png);
 }
 .nav-link {
   font-family: Aileron;
@@ -18,8 +18,16 @@
   text-align: left;
   color: #ffffff;
 }
-.nav-link:hover{
-     color: #dc2626;
+.nav-link-About {
+  font-family: Aileron;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #52525b;
+}
+.nav-link:hover {
+  color: #dc2626;
 }
 .nav-btn {
   padding: 8px 16px 8px 16px;
@@ -33,6 +41,19 @@
   line-height: 24px;
   text-align: center;
   color: #ffffff;
+}
+.nav-btn2 {
+  padding: 8px 16px 8px 16px;
+  gap: 24px;
+  border-radius: 8px;
+  background-color: #dc2626;
+  font-family: Aileron;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
 }
 .hero {
   background-image: url("https://s3-alpha-sig.figma.com/img/53ff/5b24/c790aa33752934325536a2e06666643b?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NZJUpDKog5vCfAiKV8tIh2LpxjKhv1XSfCMAeUn4JgbmWyK-QtQs-U7D4ZPbArap1LZ0yrH1klQS6fDq6pSwMMAON08WdmV00QGktdIZwDIszR6JbiLe6lIhErGa8C8dDfj4S4yTruoSHeQJ9xAF-P~wiz1mC4zwoOUj0iQuVrHSb-iB9iG7zJQeqArC4P9cFsUl3hVY~ufgva4CdGhDbAzP1xQRgVRDOXHAKt00iEurMI5rq33kwJ-uC-ey6bAKZPjNYpAiJVBEeROLManxSqRjC1t8g-yjZgFxisIixb2qp5oUxPdb2h~jCk7g0Y-5E1TZjZFCPO1cdvEn1W6n4w__");
@@ -332,6 +353,43 @@
   margin-right: 0; /* Remove margin from the last link */
 }
 
+/*About page section*/
+
+.section-About {
+  margin-top: 100px;
+}
+
+.section-About h1 {
+  font-family: Aileron;
+  font-size: 72px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #18181b;
+
+}
+
+.section-About span {
+  padding: 6px 12px 6px 12px;
+  gap: 10px;
+  border-radius: 100px;
+  background-color: #fce9e9;
+  font-family: Aileron;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #27272a;
+}
+.section-About p{
+font-family: Aileron;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: #11111180;
+}
+
 @media (max-width: 768px) {
   .footer .col-md-4 ul li a {
     margin-right: 15px;
@@ -414,6 +472,24 @@
   .section-column {
     margin-top: 0;
   }
+
+  .navbar-About {
+    background: white;
+  }
+  .nav-btn2 {
+    border: none;
+    background-color: #dc2626;
+    width: 100%;
+  }
+
+  /*About page section*/
+
+
+.section-About h1 {
+  font-size:42px;
+ 
+
+}
 }
 
 @media (max-width: 480px) {

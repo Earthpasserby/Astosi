@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const navbarToggler = document.querySelector(".navbar-toggler");
-  const navbarIcon = navbarToggler.querySelector(".navbar-toggler-icon i");
+  const navbarIcon = navbarToggler.querySelector("i"); // Select the <i> directly
   const navbarCollapse = document.querySelector("#navbarSupportedContent");
 
   navbarCollapse.addEventListener("shown.bs.collapse", function () {
