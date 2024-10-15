@@ -258,7 +258,6 @@
   font-family: Aileron;
   font-size: 48px;
   font-weight: 600;
-  line-height: 60px;
   letter-spacing: -0.02em;
   text-align: center;
   color: #ffffff;
@@ -267,10 +266,22 @@
   font-family: Aileron;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
   text-align: center;
   color: #ffffff;
   text-wrap: wrap;
+}
+.partner-btn {
+  padding: 12px 16px 12px 16px;
+  gap: 24px;
+  border-radius: 8px;
+  background-color: #dc2626;
+  border: none;
+  font-family: Aileron;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 14px;
 }
 .partner-Img {
   position: absolute;
@@ -545,14 +556,31 @@
     display: none;
   }
   .partner-Text h3 {
-    font-size: 30px;
+    font-size: 20px;
   }
   .partner-Text p {
-    font-size: 16px;
+    font-size: 15px;
   }
+  .partner-btn {
+  padding: 12px 16px 12px 16px;
+  font-size: 10px;
+}
   .news-Cont {
-    margin-top: 40px;
+    margin-top: 70px;
   }
+  .news-Text h5 {
+  font-size: 18px;
+}
+.news-Text span {
+  font-size: 12px;
+}
+.news-Btn {
+  padding: 14px 24px 14px 24px;
+  font-size: 12px;
+}
+.news-header{
+  padding-top: 10px;
+}
   .section-column {
     margin-top: 10px;
   }
@@ -617,6 +645,9 @@
 .sectionCol-V li {
  
   font-size: 12px;
+}
+.team-member img {
+  width: 100px;
 }
 }
 
