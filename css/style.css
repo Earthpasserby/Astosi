@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Aileron";
+  src: url("../fonts/Aileron-Black.otf") format("otf");
+  src: url("../fonts/Aileron-Bold.otf") format("otf");
+  src: url("../fonts/Aileron-Heavy.otf") format("otf");
+  src: url("../fonts/Aileron-Regular.otf") format("otf");
+  src: url("../fonts/Aileron-SemiBold.otf") format("otf");
+
+   font-weight: bold;
+  font-style: bold;
+}
+body {
+  font-family: "Aileron", sans-serif;
+}
 * {
   margin: 0;
   padding: 0;
@@ -632,6 +646,13 @@ video {
   text-decoration: none;
   color: #18181b;
 }
+.blog-flex {
+  min-height: 100%; /* Ensures the text container always fills its parent's height */
+}
+.water-Img {
+  height: 100%; /* Ensures the image doesn't overflow */
+  width: auto; /* Keeps the image aspect ratio intact */
+}
 /* .bl{
   border-bottom: 2px solid #D4D4D8;
   width: 500px;
@@ -851,11 +872,11 @@ video {
     border-radius: 20px;
   }
   .blog-Text h4 {
-  font-size: 16px;
-}
-.blog-Text p {
-  font-size: 14px;
-}
+    font-size: 16px;
+  }
+  .blog-Text p {
+    font-size: 14px;
+  }
 
   /* .bl{
   display: none;
