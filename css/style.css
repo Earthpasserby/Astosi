@@ -491,6 +491,7 @@
     font-size: 0.9rem;
     padding: 8px 15px; /* Smaller button for tablets */
     width: 100%;
+    margin-top: 50px;
   }
   /*Row- col section*/
   .Section {
@@ -501,6 +502,10 @@
   }
   .section {
     margin-bottom: 100px;
+    margin-top: 60px;
+  }
+  .section-hero h3{
+     font-size: 30px;
   }
   .section-btn {
     width: 100%;
@@ -512,18 +517,19 @@
     line-height: 38px;
   }
   .section-hero h1 {
-    width: 358px;
-    font-family: Aileron;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 38px;
-    text-align: center;
+    font-size: 20px;
   }
+  .section-Text {
+  padding: 12px; /* Add some padding around the text */
+  height: 130px;
+
+  
+}
   .section-Text h5 {
     font-size: 20px;
   }
   .section-Text p {
-    font-size: 14px;
+    font-size: 12px;
   }
   br {
     display: none;
@@ -538,8 +544,16 @@
     margin-top: 40px;
   }
   .section-column {
-    margin-top: 0;
+    margin-top: 10px;
   }
+  
+  .section-column h5 {
+    font-size:20px;
+  }
+   .section-column p {
+    font-size:12px;
+  }
+
 
   .navbar-About {
     background: white;
@@ -550,7 +564,7 @@
     width: 100%;
   }
   .sectionCol {
-    padding-top: 30px;
+    padding-top: 10px;
   }
   /*About page section*/
 
