@@ -362,7 +362,8 @@
 /*About page section*/
 
 .section-About {
-  margin-top: 100px;
+
+  padding-top: 100px;
 }
 
 .section-About h1 {
@@ -476,7 +477,6 @@
 
 .Service {
   background-color: #18181b;
-  margin-top: 100px;
 }
 .Service-Col {
   padding-top: 100px;
@@ -502,6 +502,11 @@
 }
 .service-Col {
   padding-bottom: 150px;
+}
+.header-service, .header-About{
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .service-Col img {
   width: 100%;
@@ -541,6 +546,7 @@ video {
   border-radius: 20px;
   margin-bottom: 100px;
 }
+/* contact page */
 @media (max-width: 768px) {
   .footer .col-md-4 ul li a {
     margin-right: 15px;
