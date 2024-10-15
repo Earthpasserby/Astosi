@@ -573,6 +573,59 @@ video {
 .contact-Header {
   margin-top: 100px;
 }
+/* Blog page */
+.blog-flex {
+  background-color: #f4f4f5;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.blog-Text {
+  padding: 56px;
+}
+.blog-Text span {
+  padding: 4px 10px 4px 10px;
+  gap: 12px;
+  border-radius: 16px;
+  border: 1px solid #e4e4e7;
+  background-color: #ffffff;
+  font-family: Aileron;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #71717a;
+}
+.blog-Text h4 {
+  font-family: Aileron;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  color: #18181b;
+  padding-top: 10px;
+}
+.blog-Text p {
+  font-family: Aileron;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #52525b;
+}
+.blog-btn  {
+  padding: 8px 16px 8px 16px;
+  gap: 24px;
+  border-radius: 8px;
+  background-color: #18181b;
+  border: none;
+ 
+}
+.blog-btn a{
+  color: #ffffff;
+ font-family: Aileron;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+}
 @media (max-width: 768px) {
   .footer .col-md-4 ul li a {
     margin-right: 15px;
@@ -776,7 +829,7 @@ video {
     width: 100%;
   }
   .contact-Header {
-    margin-top: 10px ;
+    margin-top: 10px;
   }
 }
 
