@@ -6,7 +6,7 @@
   src: url("../fonts/Aileron-Regular.otf") format("otf");
   src: url("../fonts/Aileron-SemiBold.otf") format("otf");
 
-   font-weight: bold;
+  font-weight: bold;
   font-style: bold;
 }
 body {
@@ -86,12 +86,43 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.home {
+  height: 100vh;
+  position: relative;
+}
+.vid__Motion {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 0;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+.home-content {
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  color: #fff;
+  z-index: 3;
+}
+
 .header-cont {
   height: 100%;
   display: flex;
   justify-content: left;
   align-items: flex-start;
-  /* text-align: center; */
+  text-align: center;
   width: 100%;
 }
 .header-text {
@@ -103,7 +134,7 @@ body {
   font-weight: 700;
   line-height: 90px;
   letter-spacing: -0.02em;
-  text-align: left;
+  /* text-align: left; */
   color: #ffffff;
 }
 
@@ -112,9 +143,9 @@ body {
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
-  text-align: left;
+  /* text-align: left; */
   color: #d4d4d8;
-  max-width: 600px;
+  /* max-width: 600px; */
   /* margin: 0 auto; */
 }
 .header-btn {
@@ -668,7 +699,7 @@ video {
     width: 100%;
   }
   .header-text {
-    padding-top: 50px;
+    padding-top: 100px;
   }
 
   .header-text h3 {
@@ -677,20 +708,18 @@ video {
     font-weight: 600;
     line-height: 44px;
     letter-spacing: -0.02em;
-    text-align: left;
   }
 
   .header-text p {
     font-size: 1rem; /* Adjust paragraph font size */
     font-family: Aileron;
     font-weight: 600;
-    height: 72px;
   }
 
   .header-btn {
     font-size: 0.9rem;
     padding: 8px 15px; /* Smaller button for tablets */
-    width: 100%;
+    width: 80%;
     margin-top: 50px;
   }
   /*Row- col section*/
