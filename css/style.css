@@ -395,6 +395,9 @@ body {
   max-width: 150px;
   height: auto;
 }
+.B__footer {
+  padding-top: 100px;
+}
 .Astosi-Lab {
   font-family: Aileron;
   font-size: 14px;
@@ -554,11 +557,21 @@ body {
 .service-Col {
   padding-bottom: 150px;
 }
+.navbar {
+  background: transparent; /* Make navbar transparent */
+}
+
+/* Optional: Add padding to navbar for spacing */
+
+.header-background {
+  background-image: url(../img/Background.png);
+  background-size: cover; /* Cover the entire container */
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .header-service,
 .header-About {
-  background-image: url(../img/Background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding-top: 120px;
 }
 .service-Col img {
   width: 100%;
@@ -710,7 +723,10 @@ video {
     line-height: 44px;
     letter-spacing: -0.02em;
   }
-
+  .header-service,
+  .header-About {
+    margin-top: 30px;
+  }
   .header-text p {
     font-size: 1rem; /* Adjust paragraph font size */
     font-family: Aileron;
@@ -725,7 +741,7 @@ video {
   }
   /*Row- col section*/
   .Section {
-    margin-top: 5px;
+    padding-top: 50px;
   }
   .section h5 {
     padding-top: 10px;
@@ -907,7 +923,9 @@ video {
   .blog-Text p {
     font-size: 14px;
   }
-
+  .B__footer {
+    padding-top: 50px;
+  }
   /* .bl{
   display: none;
 } */
