@@ -18,8 +18,8 @@ body {
 }
 
 /*Navbar and index page section*/
-.navbar {
-  background-color: #18181b;
+.navbar-Home {
+  background-color: #18181b !important;
 }
 .navbar-nav .nav-link.active {
   color: #ff0000;
@@ -30,9 +30,9 @@ body {
 .navbar-nav .nav-link:focus {
   color: #ff0000; /* Change hover and focus color to match the active state */
 }
-.navbar-About {
+/* .navbar-About {
   background-image: url(../img/Row.png);
-}
+} */
 .nav-link {
   font-family: Aileron;
   font-size: 16px;
@@ -75,6 +75,18 @@ body {
   text-align: center;
   color: #ffffff;
   border: none;
+}
+.navbar {
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+}
+
+/* Optional: Add padding to navbar for spacing */
+
+.header-background {
+  background-image: url(../img/Background.png);
+  background-size: cover; /* Cover the entire container */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .hero {
   background-image: url("https://s3-alpha-sig.figma.com/img/53ff/5b24/c790aa33752934325536a2e06666643b?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NZJUpDKog5vCfAiKV8tIh2LpxjKhv1XSfCMAeUn4JgbmWyK-QtQs-U7D4ZPbArap1LZ0yrH1klQS6fDq6pSwMMAON08WdmV00QGktdIZwDIszR6JbiLe6lIhErGa8C8dDfj4S4yTruoSHeQJ9xAF-P~wiz1mC4zwoOUj0iQuVrHSb-iB9iG7zJQeqArC4P9cFsUl3hVY~ufgva4CdGhDbAzP1xQRgVRDOXHAKt00iEurMI5rq33kwJ-uC-ey6bAKZPjNYpAiJVBEeROLManxSqRjC1t8g-yjZgFxisIixb2qp5oUxPdb2h~jCk7g0Y-5E1TZjZFCPO1cdvEn1W6n4w__");
@@ -167,7 +179,7 @@ body {
 }
 /*Row- col section*/
 .Section {
-  margin-top: 140px;
+  padding-top: 100px;
 }
 .section {
   padding-top: 100px;
@@ -557,18 +569,7 @@ body {
 .service-Col {
   padding-bottom: 150px;
 }
-.navbar {
-  background: transparent; /* Make navbar transparent */
-}
 
-/* Optional: Add padding to navbar for spacing */
-
-.header-background {
-  background-image: url(../img/Background.png);
-  background-size: cover; /* Cover the entire container */
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .header-service,
 .header-About {
   padding-top: 120px;
@@ -725,7 +726,7 @@ video {
   }
   .header-service,
   .header-About {
-    margin-top: 30px;
+    padding-top: 30px;
   }
   .header-text p {
     font-size: 1rem; /* Adjust paragraph font size */
@@ -924,7 +925,7 @@ video {
     font-size: 14px;
   }
   .B__footer {
-    padding-top: 50px;
+    padding-top: 10px;
   }
   /* .bl{
   display: none;
