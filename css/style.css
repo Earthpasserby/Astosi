@@ -698,6 +698,9 @@ video {
 .water-Img {
   height: 100%; /* Ensures the image doesn't overflow */
   width: auto; /* Keeps the image aspect ratio intact */
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
 }
 /* .bl{
   border-bottom: 2px solid #D4D4D8;
