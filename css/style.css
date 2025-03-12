@@ -28,7 +28,7 @@ body {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
-  color: #ff0000; /* Change hover and focus color to match the active state */
+  color: #ffcb05; /* Change hover and focus color to match the active state */
 }
 /* .navbar-About {
   background-image: url(../img/Row.png);
@@ -564,7 +564,7 @@ body {
   color: #ffffff;
 }
 .Service-Col p i {
-  color: #e35151;
+  color: #ffcb05;
 }
 .service-Col {
   padding-bottom: 150px;
@@ -604,7 +604,7 @@ body {
   color: #18181b;
 }
 .Play-Col p i {
-  color: #e35151;
+  color: #ffcb05;
 }
 video {
   width: 100%;
