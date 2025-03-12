@@ -67,7 +67,7 @@ body {
   padding: 8px 16px 8px 16px;
   gap: 24px;
   border-radius: 8px;
-  background-color: #dc2626;
+  background-color: #ffcb05;
   font-family: Aileron;
   font-size: 16px;
   font-weight: 600;
@@ -167,7 +167,7 @@ body {
   padding: 12px 16px 12px 16px;
   gap: 24px;
   border-radius: 8px;
-  background-color: #dc2626;
+  background-color: #ffcb05;
   border: none;
   font-family: Aileron;
   font-size: 16px;
@@ -217,7 +217,7 @@ body {
   padding: 12px 16px 12px 16px;
   gap: 24px;
   border-radius: 8px;
-  background-color: #dc2626;
+  background-color: #ffcb05;
   border: none;
   font-family: Aileron;
   font-size: 16px;
@@ -338,7 +338,7 @@ body {
   padding: 12px 16px 12px 16px;
   gap: 24px;
   border-radius: 8px;
-  background-color: #dc2626;
+  background-color: #ffcb05;
   border: none;
   font-family: Aileron;
   font-size: 16px;
@@ -700,7 +700,6 @@ video {
   width: auto; /* Keeps the image aspect ratio intact */
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-
 }
 /* .bl{
   border-bottom: 2px solid #D4D4D8;
